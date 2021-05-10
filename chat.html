@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chat</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header-logo">ChatWeb</h1>
+        <nav class="nav">
+            <a href="#">Settings</a>
+            <a href="#">Logout</a>
+        </nav>
+    </header>
+    <main class="chat-page">
+        <section class="chats">
+            <ul class="chats-list">
+                <li class="chats-list-item">
+                    <img src="img/profile_photo.jpeg" class="profile-image">
+                    <div class="message-user-info">
+                        <p class="user-info-name">Mike</p>
+                        <p class="user-info-msg gray">Hello!</p>
+                    </div>
+                </li>
+                <li class="chats-list-item">
+                    <img src="img/profile_photo.jpeg" class="profile-image">
+                    <div class="message-user-info">
+                        <p class="user-info-name">Mike</p>
+                        <p class="user-info-msg gray">Hello!</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section class="messaging">
+            <p class="messaging-username">username</p>
+            <ul class="messaging-chat">
+                <li class="messaging-chat-message">
+                    <img src="img/profile_photo.jpeg" class="profile-image">
+                    <div class="message-user-info">
+                        <p class="user-info-name">Mike</p>
+                        <p class="user-info-msg">Hello!</p>
+                    </div>
+                </li>
+                <li class="messaging-chat-message">
+                    <img src="img/profile_photo.jpeg" class="profile-image">
+                    <div class="message-user-info">
+                        <p class="user-info-name">Nick</p>
+                        <p class="user-info-msg">Hello!</p>
+                    </div>
+                </li>
+            </ul>
+            <form method="POST" name="chat" class="messaging-form">
+                <input type="text" id="msg" name="chat" placeholder="Message..." class="messaging-form-input">
+                <input type="submit" value="Send" name="chat" class="messaging-form-send">
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
