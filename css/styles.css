@@ -262,6 +262,8 @@ li {
 }
 
 .settings-list-item {
+    width: 100%;
+    color: lightgrey;
     margin-left: 0;
     padding: 3px;
     border-bottom: 1px solid lightgray;
